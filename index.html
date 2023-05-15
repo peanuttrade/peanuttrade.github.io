@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+  <title>Peanut Trade</title>
+</head>
+<body>
+  <style>
+    * {box-sizing: border-box;}
+    body {
+      display: block;
+      margin: 0;
+      padding: 1em;
+      background-color: #181818;
+      color: #F9BF59;
+      font-family: 'Nova Mono', monospace;
+      font-weight: 400;
+      text-align: center;
+    }
+    h1, h2, span {margin: 2vh auto;}
+    h1 {font-size: 2.5em;}
+    h2 {font-size: 2em;}
+    span {font-size: 1.5em;}
+    .main {
+      margin: 2em 0;
+      min-height: 86vh;
+    }
+    .row {
+      margin: 1em 0;
+      display: grid;
+      grid-template-columns: 32% 32% 32%;
+      column-gap: 2%;
+      row-gap: 1em;
+    }
+    .card {
+      display: block;
+      background-color: #F9BF59;
+      color: #181818;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    img {
+      display: block;
+      margin: 1em auto;
+      width: max-content;
+      max-width: 90%;
+    }
+    footer {
+      display: block;
+      margin: 3em auto 1em auto;
+      width: 100%;
+      border-top: solid 1px #F9BF59;
+      padding: 1em;
+    }
+  </style>
+  <style>
+    @media only screen and (max-width: 800px) {
+      body {padding: 2vh 1em;}
+      .main {width: 96%;}
+      .row {grid-template-columns: 100%;}
+    }
+  </style>
+  <div class="main">
+    <span>coming soon</span>
+    <img src="./images/peanut_trade.png" alt="">
+    <h1>$NUTT Token</h1>
+    <div class="row">
+      <div class="card">
+        <h1>1.000.000</h1>
+        <span>Max. Supply</span>
+      </div>
+      <div class="card">
+        <h1>10%</h1>
+        <span>Liquidity Pool</span>
+      </div>
+      <div class="card">
+        <h1>90%</h1>
+        <span>Locked Supply</span>
+      </div>
+    </div>
+  </div>
+  <footer>
+    peanuttrader.github.io
+  </footer>
+
+</body>
+</html>
