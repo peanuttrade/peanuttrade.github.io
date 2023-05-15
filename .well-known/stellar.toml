@@ -1,0 +1,23 @@
+# Peanut Trade <peanuttrade.github.io>
+VERSION="2.2.0"
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+ACCOUNTS=["GC47JA2R7XRX6T23UMIR24D2IYWW6QCGZPGOJH7A45YVQ66YILM25BFE","GDNP6AVFJYOEI466QYTUZRBZHD42SCEZI2D3WLVVYNY62IXO6UBRA3RA","GDAGZB2M2VVFYXTOTTDGWSEJQSPPC67IYKM62RG36ACRPSTCCIBA3BVW","GCOQVLB2WGTJO6PJM2MJ4EUTLCPICPQUP5ATO5RBJKIWZN2NR4UB4JUO"]
+
+[DOCUMENTATION]
+ORG_NAME="Peanut Trade"
+ORG_URL="peanuttrade.github.io"
+ORG_LOGO="https://peanuttrade.github.io/images/nutt.png"
+ORG_TWITTER="peanut_trade"
+ORG_DESCRIPTION="Peanut Trade : nano Bot Trading & Market-Making."
+
+[[PRINCIPALS]]
+name="Mr. Peanut Sr."
+email="peanut-trade@proton.me"
+
+[[CURRENCIES]]
+code="NUTT"
+issuer="GC47JA2R7XRX6T23UMIR24D2IYWW6QCGZPGOJH7A45YVQ66YILM25BFE"
+image="https://peanuttrade.github.io/images/nutt.png"
+desc="Daily trading token for Mr. Peanut Sr. Detail description: soon."
+conditions="Max supply is 1M."
+status="live"
